@@ -1,0 +1,199 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1228,2088" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:si="clr-namespace:System.IO;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Main" sap:VirtualizedContainerService.HintSize="738,2023" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Remove Background from Image for Free – remove.bg" sap:VirtualizedContainerService.HintSize="676,1912" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="7b9446dc-382b-459a-b72f-6ea470364371" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="642,1695" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:ForEachFileX DisplayName="For Each Picture in the Folder" Filter="*.jpg" Folder="C:\Users\Charlie\OneDrive\Documents\Assignment Bots UiPath\Image Background Remover Bot\Raw Photos" sap:VirtualizedContainerService.HintSize="580,1584" sap2010:WorkflowViewState.IdRef="ForEachFileX_1" IncludeSubDirectories="False" OrderBy="NameAscFirst" SkipFolderWithoutPermission="False">
+              <ui:ForEachFileX.Body>
+                <ActivityAction x:TypeArguments="si:FileInfo, x:Int32">
+                  <ActivityAction.Argument1>
+                    <DelegateInArgument x:TypeArguments="si:FileInfo" Name="CurrentFile" />
+                  </ActivityAction.Argument1>
+                  <ActivityAction.Argument2>
+                    <DelegateInArgument x:TypeArguments="x:Int32" Name="CurrentIndex" />
+                  </ActivityAction.Argument2>
+                  <Sequence DisplayName="Process Image BG Remove Sequence" sap:VirtualizedContainerService.HintSize="546,1330" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Upload Image" sap:VirtualizedContainerService.HintSize="484,157" sap2010:WorkflowViewState.IdRef="NClick_1" InteractionMode="WindowMessages" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7b9446dc-382b-459a-b72f-6ea470364371" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.remove.bg/" CvElementArea="1104, 593, 238, 64" CvTextArea="1142, 613, 163, 27" CvTextArgument="Upload Image" CvType="Button" DesignTimeRectangle="1145, 617, 287, 71" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'Upload Image'" FullSelectorArgument="&lt;webctrl parentid='page-content' tag='BUTTON' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='page-content' tag='BUTTON' type='button' class='!border !border-transparent rounded-full font-bold transition ease-in-out text-center font-body no-underline hover:no-underline inline-flex items-center justify-center text-2xl px-8 py-2.5 text-white !bg-primary hover:!bg-primary-hover active:!bg-primary-hover active:scale-[0.98] focus:outline-none focus-visible:outline-none focus:ring-none focus-visible:ring focus-visible:ring-offset-2 focus-visible:ring-primary-hover' aaname='Upload Image' check:innerText='Upload Image' /&gt;" Guid="5af9b122-535b-4184-8ae1-2c2791854d3d" ImageBase64="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" InformativeScreenshot="952db8b03a4c46e39c36fb158f8ac313.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Remove Background from Image for Free – remove.bg' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                    <ui:WindowScope ApplicationWindow="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" Window="{x:Null}" DisplayName="Attach Open Window" sap:VirtualizedContainerService.HintSize="484,590" sap2010:WorkflowViewState.IdRef="WindowScope_1" InformativeScreenshot="fc25fbe713f8ed98598e16217127a121" Selector="&lt;wnd app='chrome.exe' omit:cls='#32770' title='Open' /&gt;">
+                      <ui:WindowScope.Body>
+                        <ActivityAction x:TypeArguments="x:Object">
+                          <ActivityAction.Argument>
+                            <DelegateInArgument x:TypeArguments="x:Object" Name="ContextTarget" />
+                          </ActivityAction.Argument>
+                          <Sequence DisplayName="Attach Window Sequence" sap:VirtualizedContainerService.HintSize="450,443" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
+                            <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type File Name" sap:VirtualizedContainerService.HintSize="388,135" sap2010:WorkflowViewState.IdRef="TypeInto_2" SimulateType="True" Text="[CurrentFile.FullName]">
+                              <ui:TypeInto.Target>
+                                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="db938cab-5e18-426b-b742-083e5953d110" InformativeScreenshot="468574e652da129c442f763c341382de" Selector="&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;&lt;wnd ctrlid='1148' /&gt;">
+                                  <ui:Target.TimeoutMS>
+                                    <InArgument x:TypeArguments="x:Int32" />
+                                  </ui:Target.TimeoutMS>
+                                  <ui:Target.WaitForReady>
+                                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                                  </ui:Target.WaitForReady>
+                                </ui:Target>
+                              </ui:TypeInto.Target>
+                            </ui:TypeInto>
+                            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Open" sap:VirtualizedContainerService.HintSize="388,157" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="WindowMessages" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7b9446dc-382b-459a-b72f-6ea470364371" Version="V3">
+                              <uix:NClick.Target>
+                                <uix:TargetAnchorable DesignTimeRectangle="1306, 938, 110, 33" DesignTimeScaleFactor="1.25" ElementType="Button" FriendlyName="'unchecked'" FullSelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlid='1' title='&amp;amp;Open' check:text='unchecked' /&gt;" Guid="85ecd3ae-a4eb-4d0b-a062-99ceb8d67c39" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAHIAAAAlCAYAAACeVr0yAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIPSURBVHhe7dsxcsIwEAXQ3MmNe2pKn8Vn8Qw1LQfwOagYl1QcYuOvjcOXLOOKQSv2Z/6QWLKT8CxDYX7athWv/TpkJXXISrqCPBwOcj6f5fF4iKeswAQ2MErdIkhMuN1ucrlc5Hg8StM03oIKE9jAKMWMIKGNibmDeMspjGDFdhEklq6vxPILI1ixXQSJ5Hb0lleE7RzSaBG2c0ijRdjOIY0WYTuHNFqE7RzSaBG2MwPZj+HPe2YapMvM+5YibGcAspdgmMAp7Cg9bfumImxXPGQA21h9YWzsV9u/oQjbFQ6pq3Hsc2Nzu0Gm+Wvo9GfATkMn3TCF/yUkcxJE47R/03SCobHXRw2Pl1OE7cqG1CX34vIZQ+vlVjF1/A+EVm1AZNzodyyA8cmxdUX4ZBG2qw8yvdRGqxbz0xW2rMLn988TYW7Yv7zXYoTtqoOMEP7n/OGF4+XDkMvxQpPLdylF2K5syL0nceM1Mp6XQr46MRzybdXnPv/ONB3LzmW8XRSHfGP18pkCBZ9kdek2htB9eZWu95vxxuXNjEO+ufoER8msUiBNQx/P3ZjHSd/lOuSHq5Dpa2SdRdjOIY0WYTuHNFqE7aqC/KYibOeQRouwnUMaLcJ2EaTf12qju/e1+p3mNrp7p7l/9qPswgQ2u5/9QDHhdDrJ9XqV+/3uLagwgU2KiK4gvTbrkJXUIatoK79l6+KmfMFq+AAAAABJRU5ErkJggg==" InformativeScreenshot="2771f456859554f8cf8e33a526386aa7.png" ScopeSelectorArgument="&lt;wnd app='chrome.exe' cls='#32770' title='Open' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Version="V2" Visibility="Interactive" />
+                              </uix:NClick.Target>
+                            </uix:NClick>
+                          </Sequence>
+                        </ActivityAction>
+                      </ui:WindowScope.Body>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:WindowScope>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" ContinueOnError="False" DisplayName="Click Remove BackGround" sap:VirtualizedContainerService.HintSize="484,193" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7b9446dc-382b-459a-b72f-6ea470364371" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.remove.bg/upload" CvTextArgument="Removed Background" CvType="Text" DesignTimeRectangle="472, 275, 214, 35" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Removed Background'" FullSelectorArgument="&lt;webctrl aaname='Removed Background' parentid='page-content' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Removed Background' parentid='page-content' tag='A' type='' class='nav-link active' check:innerText='Removed Background' /&gt;" Guid="2b796b03-dd27-4c6a-a5c2-a3843c632433" ImageBase64="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" InformativeScreenshot="7da02b6010c8a136964db68561f78264.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Remove Background from Image for Free – remove.bg' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                      <uix:NClick.VerifyOptions>
+                        <uix:VerifyExecutionOptions DisplayName="Label 'Removed Background'" Mode="Appears">
+                          <uix:VerifyExecutionOptions.Retry>
+                            <InArgument x:TypeArguments="x:Boolean" />
+                          </uix:VerifyExecutionOptions.Retry>
+                          <uix:VerifyExecutionOptions.Target>
+                            <uix:TargetAnchorable BrowserURL="https://www.remove.bg/upload" CvTextArgument="Removed Background" CvType="Text" DesignTimeRectangle="472, 275, 214, 35" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Removed Background'" FullSelectorArgument="&lt;webctrl aaname='Removed Background' parentid='page-content' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Removed Background' parentid='page-content' tag='A' type='' class='nav-link active' check:innerText='Removed Background' /&gt;" Guid="ab8ea3ac-bc31-46f9-946d-2fd8a2416a13" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANoAAAAnCAYAAABpEVYcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAokSURBVHhe7ZuHk2VFFcb9DyzREq1SERQQSYoFSgmoiIVCQYEWggVFkRQpimKXnCRKBsnRALssQZa0LMmwC5KTLMKqSNwlzM7Mm5zTTtu/vu+8PdN735137wuge76qU/Pe7b59T/c53+nT5775mDMYDE2HEc1gaAGMaAZDC2BEMxhaACOawdACGNEMhhbAiGYwtABGNIOhBTCiGQwtgBHNYGgBZhBtetq50uBq19Y3lSq9w6vLPQ15MDA67Xa9ost9fE5b+Mv3ahifmnar+j86NuCZm5/VEXQ/eF5P+aohDVl2nkE03TFNPjG3zf3g8i73Xs9U+Q5DLchDtBdWTLjPn7RqrbUXwQY/vbE7EKAVMKLVjoYRTWQ2ZzHMRJYBYmiifeHkdvfVMzuCbObl08etIeABf+hxE373azYaRbR+P2eypf9nZNm5KtHiju0Dq90Pr0zaPnVsm/vzv8bKLYbZkLWuMTTRLnhksHw1QYe3wY4Xl0Ibzt+KXa1RRLtq6VAYY9/fdruxyeYHiA8DWXaumWjgrpdGQhuy6OXR8tUERKwT7+l3m/yqPbQTfb9/Wck99p+xcPYTXPu3oRChd/Ft7/oU9JK/DLoNT03u+coZHe72F0ZC/3+vmgxp6nrHJGP95Ppu93ZpbcfiTDPvmWG33fmdoS+p1RbeMU6/fyDoJFj8ymi4zrPpH+Odrin3nUtLoX3unX1uqhx8a50X4J47vP7bnNsZ9PjMCavc4Qt63Wvtk5nrqpFFNICz0xYTDV2eeXvc7X1dd3guffjL9+UfTJR7zQTrj37snNXmVo1o/2ybdN+6sDOs1xG39VbIMzI+7a70pGKtWQNsQr9NT28P499X9hsCNz7A/ccu7Av23tUHcr4fOr+3ska12hcQ/LkfiTcC8bu4jWdzbf/f97gef/7V/shfvqODRhE75yLaLc8Oh7Z4R3t+xbj78mmJcrGwOJf9dY3D4Dxch1RH3t4XFNX9Mcb1jw+5r/86Ma6WWKe+kdVuz2u71+onwhgQCLxVmgzpF9f3uKYrOISGzA19xBnyzAvHvPBPg2vNB/nmBZ1u63OSZ6etq0YW0dAZ3Wn7sQ88Mgcc4fi7+1OfjTCHVyOyEXiqnQWxwcK/j4R+aURj3X90VaLHVmd3VAIgehx+a++MsUQ+6ddLxgR6XAj3De+00lfsk8e+gOAvbfFGIH4Xt0ngIqgf/ce+Sh8R1hSyCYrauSrRvvebknu9YzIsCLL0tbGwqLSxyCxCfA+Gu/np4dB/2bsTbmc/BtdxcBwd6AkTCVD6xZUTwUBa+e19FHxo+ah7wDuEPPdzfvzn3hkP44AzFg9U+u90SSks4NNvjbvDfESUscQhWaCj7kgWkkj1yvtrHG9kYtrt5SM/bRicql/eeWmCMC8iLvO6fMngDIfOQ7QdfJrIuogQ1bnO83VBivHQnzmz8z/15njQ9TofxSEN91yqnGVl95T7WjmQia6sx01+jkR3ruPsg2PTYRxNNNbxtEX94bsmJNC6n/PgQIj8rP0h8xLy4YhdQ4nf6HGRL57SHsYntZQAlse+oB6iIeh+7kOJ3c5/ZKCydqTr7HagqJ1zFUN48C+9wbvLiwXY2djhaCcP13j8jXG3/vHJw2VyesI6YuM4suNs6nc7SC7AYeQeGafTH6y3PS9xPIwgBgREVtIP2j7rFwPjAK2PfjZOJukCUQ0UnRcOMD9KTQkYMlYeolUTglCcupJ6LXhueMa1NzsnQ8rGPbIbAVnPNF2f9CQ9+d7+QDIQEw1i4QfcS5DUz2Mt6If+zEOQdl2Py3XSXo0i9pXnIGIXwWxEi9eCQhOkpw090RcUtXMuohF1Hnw1fQKkBkQXHYH3uaG78mBxbOmPo+KwAr3wsZJpC6gd8pT7+sM1DX2exLEAu/B3/TmMa/yVXVkO6tpoeeclBsOxcXAN7TR5iBbvaD+/pbeyRvFuAnD6D3qn3N1+7nP8OXPj8rkS0UTL0jWGtgvjiW7oE59dJDghOJ1AdqYv+RSWsx3Q45IhDZWJLShi33qIpnUTSJsmWlE7z3pGY/vnMM2Blutxvq8nkCXikNKfRdRRrx6iydga+h7dHpMqbc4g77zSjCKo9ow0zDYviMQhnHaMinHBo36H0+ccZCO/S0v6g36CLF1jaLuIQCSKVjGY1+5XJ/Mkrdrvdz2hGMN5lms/89+FnHpcrZugiH3T/ESg7anbstYirS2rf5aday6G6G1RRxiZAOenh5ePhYenCecg3b+RRCOvjqHv0ecTnSYyD8gG6fiuU8S88xIDkP7GL/TJ76UsH88txmwOxq514E3JszbwGcYyf2bUhR452/LO6n1PSllT7cxZusZgjjIGwVbOy6zhs1G6B3jubuVCiQhpVvySXY+rdRMUsW+anwgaTbS8dq6ZaHpb1IdDKnQsJNfjswxOwVlCl2EbRTSciDIv1+IqIs+lJE8bwUFXSMm9edlLG/OhNM3nOHXIOy9IK8/TaRPQZK6XaDr9lfRFrw8plUCfe7Uziw3SdCUQMf69y0ZDNhMTAnJJoKJSJ+k34DNVQsY964EBd+eLI6GIlvazsdmIVsS+eh2oIgu0zZF6iFbUzjUTDUj5U5+vdAULB6E6x31EtiuWJFUvSp4v+cgLGkU0FluqiBCCVwVSLSRnl5RJn8UEtz0/UiGRSPxLi7zz0js+lTt2QXY72tll5Dl5iEZ1j3URgQS64iYOqNfnvIcHwtpAEj5LX6qR6E6b3tWr6QpB2Sm1XXA87tflbX1W4/zOddaBqh2ld9E9Jls8bowi9tVFKoIA+jMv3R+ph2hF7ZyLaLoSp9NHqUTJQ2L59kWl8IISNIpoAEOmvW8TqZbeYDB9nsGQ8u5MI8+8cDbOIGn9tvTpVrW5xdBEyxI9N506MheKFryE5pkUVOQecZiYLLFwXd4dpRGCuUIwrrE+UpTBHrILpQmBibMkSBs3Rl776t1eCzr+YkGiL1IP0YraORfRdPoo75sET/hoQhlWG49DMErpCTSSaID7qMZpQqAD7wGr/SIC6JeT8Vw0ap0XoCTOuHL4R3jn9Y/3JjLXVWM2okEgfsUQz43dhKqw9JMKMZFWXqISgVeUX/BCNggibSKQVH6dA7RdNCE0CaRARt9jFvaFSq0eU4usdbVxY+S1r54vQlHmmseGQiCVa/UQDRSx8wyiNQJsoyjFYkpK0QrwLDEgOjQaeeYlfVv9Ly2ki+ywCJ9rBQ6BvpJaFgHnQckS5GW1gHEPujlx2jjA1oo89mUOPLPZPpjHzg0nmmHdhM46+JWEJiyfpXghldJ1DUY0Q0MQnxN510fKR/rF71qFhPonU+sSjGiGhiHtpbkI5xl+4a5/vrcuwYhmaDg4s1AsIZ1E+NyMc/P/EoxoBkMLYEQzGFoAI5rB0AJUiJZ2gDUxMalPBEY0E5MmisCIZmLSRBEY0UxMmigCI5qJSRNFUCGawWBoFpz7L7pr2kwh7kpRAAAAAElFTkSuQmCC" InformativeScreenshot="7da02b6010c8a136964db68561f78264.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Remove Background from Image for Free – remove.bg' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                          </uix:VerifyExecutionOptions.Target>
+                          <uix:VerifyExecutionOptions.Timeout>
+                            <InArgument x:TypeArguments="x:Double" />
+                          </uix:VerifyExecutionOptions.Timeout>
+                        </uix:VerifyExecutionOptions>
+                      </uix:NClick.VerifyOptions>
+                    </uix:NClick>
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Download Button" sap:VirtualizedContainerService.HintSize="484,157" sap2010:WorkflowViewState.IdRef="NClick_4" InteractionMode="Simulate" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="7b9446dc-382b-459a-b72f-6ea470364371" Version="V3">
+                      <uix:NClick.Target>
+                        <uix:TargetAnchorable BrowserURL="https://www.remove.bg/upload" CvElementArea="1229, 412, 259, 58" CvTextArea="1313, 432, 88, 18" CvTextArgument="Download" CvType="Button" DesignTimeRectangle="1234, 414, 250, 53" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'Download'" FullSelectorArgument="&lt;webctrl aaname='Download' parentid='page-content' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Download' parentid='page-content' tag='A' type='' class='btn btn-primary btn-download mr-2 mr-md-0' check:innerText='Download' /&gt;" Guid="df34ee10-6b50-419a-bc25-cfd9cd63c2d9" ImageBase64="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" InformativeScreenshot="6c45ba1b0e602f33fb7ba6a08d3b88a9.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Remove Background from Image for Free – remove.bg' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V2" Visibility="Interactive" />
+                      </uix:NClick.Target>
+                    </uix:NClick>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEachFileX.Body>
+            </ui:ForEachFileX>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAD0SURBVDhPzZLNygFhGIbfU5jdnIy+Q1DYqE9YEaLsWNuxsnUCtn6iNDRkkh17S2tLK8Vz1WNkGn8beeuqd577vp5oxvzuSWRLtlBVbB2/PirmhK1wUrgze7xIQktLKwHpHIAZGR1LNV9MahgmBrkuwrFMPFPsCUcN3wYH10T/85FYutCRh0NYMQy6OLjG9dZ/4+m8Xmu0KhJ2ny3SrEsXB9dM3GVfODlzbz9y3DYhP03w/xZ3ZmR06OLgssASUsKSobPwdoPJrKmLhsCdGRkd7eLc3gYPOtwI/qKASHYvBo+EtlDWMtJVZPb+F0lZpc/ELx9jLnFvP3JR4kfRAAAAAElFTkSuQmCC" InformativeScreenshot="62339ae1f59ed845672ff246816f5fb5.jpg" Selector="&lt;html app='chrome.exe' title='Remove Background from Image for Free – remove.bg' /&gt;" Title="Remove Background from Image for Free – remove.bg" Url="https://www.remove.bg/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
